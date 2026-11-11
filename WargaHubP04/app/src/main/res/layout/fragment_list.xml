@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:padding="16dp">
+    <TextView style="@style/Widget.WargaHubP04.Title" android:text="@string/list_title"/>
+    <TextView style="@style/Widget.WargaHubP04.Text" android:text="@string/list_help"/>
+    <TextView android:id="@+id/tvJumlah" style="@style/Widget.WargaHubP04.Text"
+        android:textStyle="bold" android:accessibilityLiveRegion="polite"/>
+    <Button android:id="@+id/btnModeKosong" style="@style/Widget.WargaHubP04.Button"
+        android:text="@string/try_empty" android:layout_marginBottom="16dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvLaporan"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:clipToPadding="false" android:paddingBottom="12dp"/>
+        <ScrollView android:id="@+id/emptyContainer" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:fillViewport="true" android:visibility="gone">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="24dp" android:background="@drawable/bg_card">
+                <TextView style="@style/Widget.WargaHubP04.Title" android:text="@string/empty_title"/>
+                <TextView style="@style/Widget.WargaHubP04.Text" android:text="@string/empty_message"/>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

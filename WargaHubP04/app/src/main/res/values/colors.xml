@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="p04_navy">#112954</color>
+  <color name="p04_blue">#2368B4</color>
+  <color name="p04_cyan">#19B8C9</color>
+  <color name="p04_slate">#354861</color>
+  <color name="p04_muted">#64748B</color>
+  <color name="p04_page">#F3F7FC</color>
+  <color name="p04_white">#FFFFFF</color>
+  <color name="p04_border">#D9E5F2</color>
+  <color name="p04_soft">#E6F5FB</color>
+</resources>

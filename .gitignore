@@ -1,0 +1,9 @@
+WargaHubP04/.gradle/
+WargaHubP04/.idea/
+WargaHubP04/build/
+WargaHubP04/app/build/
+WargaHubP04/local.properties
+*.apk
+*.aab
+*.jks
+*.keystore

@@ -1,0 +1,18 @@
+[versions]
+agp = "9.3.3"
+coreKtx = "1.17.0"
+appcompat = "1.8.0"
+activityKtx = "1.13.0"
+recyclerView = "1.4.0"
+fragmentKtx = "1.8.9"
+navigation = "2.9.5"
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerView" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

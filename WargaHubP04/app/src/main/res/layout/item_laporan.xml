@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:layout_marginBottom="12dp" android:padding="17dp" android:minHeight="80dp"
+    android:clickable="true" android:focusable="true" android:background="@drawable/bg_card">
+    <TextView android:id="@+id/tvJudul" style="@style/Widget.WargaHubP04.Text"
+        android:textStyle="bold" android:textSize="17sp" android:textColor="@color/p04_navy"
+        android:importantForAccessibility="no" android:layout_marginBottom="6dp"/>
+    <TextView android:id="@+id/tvKategori" style="@style/Widget.WargaHubP04.Text"
+        android:importantForAccessibility="no" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvStatus" style="@style/Widget.WargaHubP04.Text"
+        android:textSize="13sp" android:textColor="@color/p04_blue"
+        android:importantForAccessibility="no" android:layout_marginBottom="0dp"/>
+</LinearLayout>
